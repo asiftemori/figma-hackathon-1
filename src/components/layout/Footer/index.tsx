@@ -28,7 +28,7 @@ const socialsData: SocialNetworks[] = [
   {
     id: 4,
     icon: <FaGithub />,
-    url: "https://github.com/Nimrahjawaid03",
+    url: "https://github.com/asiftemori/figma1-asif",
   },
 ];
 
@@ -105,13 +105,13 @@ const Footer = () => {
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
               Shop.co © Made by 
               <Link
-                href="https://github.com/Nimrahjawaid03"
+                href="https://github.com/asiftemori/figma1-asif"
                 className="text-black font-medium"
               >
-                 Nimrah M.Jawaid
+                 Muhammad Asif Temori
               </Link>
               {", "}
-              Designed by NMJ
+              Designed by MAT
             </p>
             <div className="flex items-center">
               {paymentBadgesData.map((badge, _, arr) => (
